@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.CH.WebSDK", "Sitecore.CH.WebSDK.csproj", "{9516DA52-278E-4BE9-89AA-76BF8E11EF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9516DA52-278E-4BE9-89AA-76BF8E11EF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9516DA52-278E-4BE9-89AA-76BF8E11EF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9516DA52-278E-4BE9-89AA-76BF8E11EF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9516DA52-278E-4BE9-89AA-76BF8E11EF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {377904A9-FDDE-4F68-AAEE-30D4D6251557}
+	EndGlobalSection
+EndGlobal
