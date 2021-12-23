@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sitecore.CH.WebSDK.operations;
+using System;
 using System.Threading.Tasks;
 
 namespace Sitecore.CH.WebSDK
@@ -10,8 +11,11 @@ namespace Sitecore.CH.WebSDK
             try
             {
                 // Check if the connection is successful!!
-                await MConnector.Client.TestConnectionAsync();
-                Console.WriteLine("Connection Succesful!!");
+                //await MConnector.Client.TestConnectionAsync();
+                //Console.WriteLine("Connection Succesful!!");
+
+                // Create entity of M.Asset type
+                var assetId = await CreateEntity.CreateAssetEntity();
             }
             catch (Exception ex)
             {
