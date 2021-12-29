@@ -18,7 +18,10 @@ namespace Sitecore.CH.WebSDK
                 // var assetId = await CreateEntity.CreateAssetEntity();
 
                 // Delete entity of M.Asset type
-                await DeleteEntity.DeleteAssetEntity();
+                // await DeleteEntity.DeleteAssetEntity();
+
+                // Update entity of M.Asset type
+                await UpdateEntity.UpdateAssetEntity();
             }
             catch (Exception ex)
             {
