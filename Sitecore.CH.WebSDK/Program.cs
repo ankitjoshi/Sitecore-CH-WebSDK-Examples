@@ -11,11 +11,14 @@ namespace Sitecore.CH.WebSDK
             try
             {
                 // Check if the connection is successful!!
-                //await MConnector.Client.TestConnectionAsync();
-                //Console.WriteLine("Connection Succesful!!");
+                // await MConnector.Client.TestConnectionAsync();
+                // Console.WriteLine("Connection Succesful!!");
 
                 // Create entity of M.Asset type
-                var assetId = await CreateEntity.CreateAssetEntity();
+                // var assetId = await CreateEntity.CreateAssetEntity();
+
+                // Delete entity of M.Asset type
+                await DeleteEntity.DeleteAssetEntity();
             }
             catch (Exception ex)
             {
